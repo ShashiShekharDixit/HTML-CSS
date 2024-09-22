@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Evaluation Form</title>
+<link href="\Users\hp\OneDrive\Pictures\mahadev-full-hd-sculpture-with-man-8b8yd9729mt5twj3.jpg" rel="stylesheet">
+<style>
+html, body {
+min-height: 10%;
+}
+body, div, form, input, p {
+padding: 0;
+margin: 0;
+outline: noen;
+font-family: Roborto, Arial, sans-serif;
+font-size: 14px;
+color: rgb(0, 255, 64);
+line-height: 22px;
+}
+h1 {
+font-weight: 40;
+}
+h4 {
+margin-bottom: 0;
+}
+hr {
+margin: 20px 0;
+}
+span.required {
+color: rgb(255, 204, 0);
+}
+.main-block {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 3p;
+}
+form {
+width: 100%;
+padding: 20px;
+box-shadow: 0 2px 5px black;
+}
+th, td {
+width: 12%;
+text-align: center;
+vertical-align: unset;
+line-height: 18px;
+font-weight: 40;
+word-break: break-all;
+}
+.first-col {
+width: 38%;
+text-align: left;
+}
+textarea :hover {
+border: 1px solid rgb(0, 242, 255);
+outline: none;
+}
+.comments-block, .rdio-block {
+margin: 30px 0;
+}
+.comment, question, .answer, .question-answer, table {
+width: 10%;
+}
+.comments {
+margin: 0;
+}
+small {
+display: block;
+line-height: 18px;
+opacity: 0.5;
+}
+teaxtarea {
+width: calc(10% - 6px);
+}
+.question-answer >div {
+display: inline-block;
+margin-left: 30PX;
+}
+.btn-block {
+text-align: center;
+}
+button {
+width: 15px;
+padding: 10px;
+border: none;
+border: none;
+border-radius: 5px;
+background: rgb(255, 157, 0);
+font-size: 16px;
+color: violet;
+cursor: pointer;
+}
+button:hover {
+background: silver;
+}
+@media (min-width: 568px) {
+.comments-block, .radio-block {
+display: flex;
+justify-content: space-between;
+}
+.comments {
+width: 3%;
+}
+.answer {
+width: 7%;
+}
+.question, .question-answer {
+width: 50%;
+}
+th, td {
+word-break: keep-all;
+}
+}
+</style>
+</head>
+<body>
+<div class="main-block">
+<form action="/">
+<h1>Course Evaluation Form</h1>
+<p> W3docs provides free learning materials for programming languges like HTML, CSS, Java Script, PHP etc.</p>
+<h3>Rate this course using the following scale:</h3>
+<p>1 - Rarely meets expectations.</p>
+<p>2 - Something meets expections</p>
+<p>3 - Meets expections</p>
+<p>4 - frequently exceeds expections</p>
+<p>5 - Consistently exceeds expectations</p>
+<hr>
+<div>
+<h4>Course offering<span class="required">*</span></h4>
+<table>
+<tr>
+<th class="first-col"></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td class="first-col">Course content met you needs</td>
+<td><input type="radio" value="none" name="needs" required /></td>
+<td><input type="radio" value="none" name="needs" required /></td>
+<td><input type="radio" value="none" name="needs" required /></td>
+<td><input type="radio" value="none" name="needs" required /></td>
+<td><input type="radio" value="none" name="needs" required /></td>
+</tr>
+</table>
+<table>
+<tr>
+<th class="first-col"></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td class="first-col">Course materials, and educational resources</td>
+<td><input type="radio" value="none" name="resources" required /></td>
+<td><input type="radio" value="none" name="resources" required /></td>
+<td><input type="radio" value="none" name="resources" required /></td>
+<td><input type="radio" value="none" name="resources" required /></td>
+<td><input type="radio" value="none" name="resources" required /></td>
+</tr>
+</table>
+<table>
+<tr>
+<th class="first-col"></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td class="first-col">Class location & equipment</td>
+<td><input type="radio" value="none" name="equipment" required /></td>
+<td><input type="radio" value="none" name="equipment" required /></td>
+<td><input type="radio" value="none" name="equipment" required /></td>
+<td><input type="radio" value="none" name="equipment" required /></td>
+<td><input type="radio" value="none" name="equipment" required /></td>
+</tr>
+</table>
+</div>
+<div>
+<h4>Instruction Evaluation</h4>
+<table>
+<tr>
+<th class="first-col"></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td class="first-col">Knowledge of the subject matter</td>
+<td><input type="radio" value="none" name="knowledge" /></td>
+<td><input type="radio" value="none" name="knowledge" /></td>
+<td><input type="radio" value="none" name="knowledge" /></td>
+<td><input type="radio" value="none" name="knowledge" /></td>
+<td><input type="radio" value="none" name="knowledge" /></td>
+</tr>
+</table>
+<table>
+<tr>
+<th class="first-col"></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td class="first-col">Communicated the course material effectively</td>
+<td><input type="radio" value="none" name="effectively" /></td>
+<td><input type="radio" value="none" name="effectively" /></td>
+<td><input type="radio" value="none" name="effectively" /></td>
+<td><input type="radio" value="none" name="effectively" /></td>
+<td><input type="radio" value="none" name="effectively" /></td>
+</tr>
+</table>
+<table>
+<tr>
+<th class="first-col"></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td class="first-col">The instructor encouraged student to</td>
+<td><input type="radio" value="none" name="students" /></td>
+<td><input type="radio" value="none" name="students" /></td>
+<td><input type="radio" value="none" name="students" /></td>
+<td><input type="radio" value="none" name="students" /></td>
+<td><input type="radio" value="none" name="students" /></td>
+</tr>
+</table>
+<table>
+<tr>
+<th class="first-col"></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td class="first-col">Paricipate in course</td>
+<td><input type="radio" value="none" name="participate" /></td>
+<td><input type="radio" value="none" name="participate" /></td>
+<td><input type="radio" value="none" name="participate" /></td>
+<td><input type="radio" value="none" name="participate" /></td>
+<td><input type="radio" value="none" name="participate" /></td>
+</tr>
+</table>
+</div>
+<div class="comments-block">
+<h4 class="comments">Comments<small>Please let us know what could be done to improve this course</small></h4>
+<div class="answer">
+<textarea rows="5"></textarea>
+</div>
+</div>
+<div class="radio-block">
+<p class="question">May we use your Quates / Comments?</p>
+<div class="question-answer">
+<div>
+<input type="radio" value="none" id="radioYes" name="comments" />
+<label for="radioYes" class="radio">Yes</label>
+</div>
+<div>
+<input type="radio" value="none" id="radioNo" name="comments" />
+<label for="radioNo" class="radio">No</label>
+</div>
+</div>
+</div>
+<div class="btn-block">
+<button type="submit" href="/">Send</button>
+</div>
+</form>
+</div>
+</body>
+</html>
+

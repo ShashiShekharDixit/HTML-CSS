@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendingTales News</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #c5d5f0;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(45deg, #4a90e2, #e35b9a, #f5a623);
+            border-radius: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .search-container {
+            display: flex;
+        }
+        .search-container input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px 0 0 3px;
+        }
+        .search-container button {
+            padding: 5px 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 0 3px 3px 0;
+            cursor: pointer;
+        }
+        main {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .news-item {
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .news-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .news-content {
+            padding: 15px;
+        }
+        .news-content h2 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        .news-content p {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .news-source {
+            font-size: 0.8em;
+            color: #999;
+        }
+        .chatbot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        .chatbot-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#">World Cup '23</a></li>
+                <li><a href="#">Finance & Stocks</a></li>
+                <li><a href="#">World Politics</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="e.g. Science">
+            <button>Search</button>
+        </div>
+    </header>
+    <main>
+        <div class="news-item">
+            <img src="/placeholder.svg?height=200&width=300" alt="Journalists protesting">
+            <div class="news-content">
+                <h2>India Is Using Terrorism Laws To Target Journalists</h2>
+                <p class="news-source">Wired • 10/3/2023, 6:23:11 PM</p>
+                <p>Police seized laptops and phones from reporters working for the anti-establishment Newsclick website—the latest outlet to be raided during a crackdown on media in India.</p>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="/placeholder.svg?height=200&width=300" alt="Classroom">
+            <div class="news-content">
+                <h2>Kota: Stricter rules for India student hub after suicides</h2>
+                <p class="news-source">BBC News • 10/23/2023, 7:59:12 AM</p>
+                <p>Young people from across India go to the city of Kota for tuition to help them pass entrance exams to elite colleges.</p>
+            </div>
+        </div>
+        <div class="news-item">
+            <img src="/placeholder.svg?height=200&width=300" alt="Cricket commentator">
+            <div class="news-content">
+                <h2>Zainab Abbas: Pakistani cricket commentator leaves India after backlash</h2>
+                <p class="news-source">BBC News • 10/10/2023, 1:33:23 PM</p>
+                <p>ICC said Zainab Abbas left India for personal reasons amid local media claims she was forced to go.</p>
+            </div>
+        </div>
+    </main>
+    <div class="chatbot">
+        <div class="chatbot-icon"></div>
+    </div>
+</body>
+</html>
